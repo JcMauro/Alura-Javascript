@@ -1,0 +1,37 @@
+<meta charset="UTF-8">
+
+<script>
+
+    var ano = 2022;
+
+    document.write("Júlio tem " + (ano - 2000) + " anos");
+    document.write("<br>");
+    document.write("Will tem " + (ano - 1997) + " anos");
+    document.write("<br>");
+    document.write("Wellix tem " + (ano - 1994) + " anos");
+    document.write("<br>");
+    document.write("<br>");
+ 
+</script>
+
+<meta charset="UTF-8">
+
+<script>
+
+    function average(...numbers) {
+        let total = 0;
+        for(const number of numbers) {
+            total += number/numbers.length;
+        }
+        return total
+    }
+
+    var idadeJulio = 22;
+    var idadeWellix = 28;
+    var idadeWill = 25;
+
+    var media = average(idadeJulio, idadeWellix, idadeWill);
+
+    document.write("A média das idades é " + media);
+
+</script>
