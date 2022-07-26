@@ -1,40 +1,52 @@
 <meta charset="UTF-8">
 
 <h3>Álcool ou Gasolina?</h3>
+		<h3>Teste</h3>h3>
+				<span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+					industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+					and scrambled it to make a type specimen book. <strong>It has survived not only five centuries, but also the
+					leap into electronic typesetting, remaining essentially unchanged.</strong> It was popularised in the 1960s
+					with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+					publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
 
-<script>
+				<script>
 
-	function pulaLinha() {
+					function pulaLinha() {
 
-		document.write("<br>");
-		document.write("<br>");
+						document.write("<br>");
+						document.write("<br>");
 
-	}
+					}
 
-	function mostra(frase) {
+					function mostra(frase) {
 
-		document.write(frase);
-		pulaLinha();
+						document.write(frase);
+						pulaLinha();
 
-	}
+					}
+
+
+
+
+
+					var tanque = 40;
+
+					var caminhoComGasolina = 480;
+					var consumoDeGasolina = caminhoComGasolina / tanque;
+
+					var caminhoComAlcool = 300;
+					var consumoDeAlcool = caminhoComAlcool / tanque;
+
+
+					mostra("O consumo de gasolina é " + consumoDeGasolina + " por KM")
+
+					mostra("O consumo de Álcool é " + consumoDeAlcool + " por KM")
+
+					mostra("Olá babaca")
+
+				</script>
+
 
 
 
 	
-
-	var tanque = 40;
-
-	var caminhoComGasolina = 480;
-	var consumoDeGasolina = caminhoComGasolina/tanque;
-
-	var caminhoComAlcool = 300;
-	var consumoDeAlcool = caminhoComAlcool/tanque;
-
-
-	mostra("O consumo de gasolina é " + consumoDeGasolina + " por KM")
-
-	mostra("O consumo de Álcool é " + consumoDeAlcool + " por KM")
-
-	mostra("Olá babaca")
-
-</script>
